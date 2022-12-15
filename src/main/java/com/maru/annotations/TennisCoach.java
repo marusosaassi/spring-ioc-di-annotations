@@ -2,7 +2,7 @@ package com.maru.annotations;
 
 import org.springframework.stereotype.Component;
 
-@Component("tennisSpecialCoach") //Spring will automatically register this bean
+@Component //Spring will automatically register this bean
 public class TennisCoach implements Coach{
     @Override
     public String getDailyWorkout() {
